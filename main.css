@@ -1,0 +1,444 @@
+
+/*boje
+
+crna #030303
+zuta #ffd000
+bela #ffffff
+*/
+
+
+
+
+#naslovna {
+	background-color: #030303;
+	color: #ffd000;
+	border-bottom: 1px solid #ffd000;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+#naslovna .fab {
+
+	color: #ffd000;
+}
+
+#naslovna  .fab:hover {
+	color: #ffffff
+}
+
+
+h2::after {
+    content: "";
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    height: 5px;
+    background: #ffd000;
+
+}
+
+
+
+/*navbar*/
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 0.8;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffd000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  opacity: 0.8;
+  position: fixed;
+  color: #ffd000;
+  background-color:#030303;
+  z-index: 9;
+ 
+ 
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*slider*/
+
+
+/*o nama*/
+
+#o-nama {
+background-color: black;
+	color: #ffd000;
+}
+
+
+/*aktuelno*/
+
+
+
+
+/*programi*/
+
+
+.programi .card {
+	position: relative;
+	
+	background-color: #03030395;
+	color:#ffd000;
+}
+
+.programi .card-text {
+	padding: 30px;
+}
+
+.programi .corner-text{
+	position:absolute;
+	top:0px;
+	right:0;
+	background:yellow;
+	color: #030303;
+}
+.programi .corner-text p {
+	margin-bottom: 0px;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.programi img {
+	transition: transform 3s ease-in-out;
+}
+.programi .holder {
+	overflow: hidden;
+}
+.programi img:hover {
+	transform: scale(1.3);
+}
+
+
+#borilacki {
+	background-image: url(sadrzaj/img/bg/bgk.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#fitnes {
+	background-image: url(sadrzaj/img/bg/bgf1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#izdvajamo {
+	background-image: url(sadrzaj/img/bg/bgi.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*team*/
+#team img {
+	
+	border-radius: 50%;
+}
+#team {
+	color: #ffd000; 
+	text-align: center;
+	background-color: black;
+}
+
+
+
+
+/*SADRZAJ*/
+
+#sadrzaj h2::after {
+    content: "";
+    display: block;
+    margin: 5px auto;
+    width: 230px;
+    height: 5px;
+    background: #030303;
+    
+}
+
+#sadrzaj .card-container{
+	position: relative;
+	width: 18rem;
+	perspective: 200rem;
+	height: 312px;
+}
+
+#sadrzaj .card-container:hover .card-front{
+	transform: rotateY(180deg);
+}
+
+#sadrzaj .card-container:hover .card-back{
+	transform: rotateY(0deg);
+}
+
+#sadrzaj .card-back{
+	transform: rotateY(180deg);
+}
+
+#sadrzaj .card{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	transition: all 0.9s;
+	backface-visibility: hidden;
+	border: 2px solid #030303;
+	margin-bottom: 10px;
+}
+
+#sadrzaj .card-back .card-body{
+	position: relative;
+}
+
+
+#sadrzaj .bg-warning {
+    background-color: black!important;
+    color:#ffd000!important;
+    font-size: 25px;
+}
+
+#sadrzaj .card-body a {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    margin: -15% 0 0 -23%;
+    background-color: #ffd000;
+    color: black;
+}
+
+#sadrzaj .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#sadrzaj ul {
+    list-style-type: disc !important;
+    padding-left: 1em;
+}
+
+/*kontakt*/
+
+
+
+#kontakt h2::after {
+    content: "";
+    display: block;
+    margin: 5px auto;
+    width: 330px;
+    height: 5px;
+    background: #030303;
+}
+
+#kontakt .fab{
+	 
+	color: #030303;
+	font-size: 40px;
+}
+
+#kontakt .fab:hover {
+	color: #ffd000;
+}
+
+#footer {
+	background-color: #030303;
+	color: #ffd000;
+	border-top: : 1px solid #ffd000;
+	font-weight: 900;
+	font-size: 20px;
+	padding-bottom: 0px;
+	}
+
+/*footer*/
+
+
+#programi .jumbotron {
+	background-image: url(sadrzaj/img/fitnes1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:  200px 50px;	
+	color: #ffd000;
+}
+#programi .mark {
+
+   opacity: 0.7;
+}
+
+
+
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0px;
+    
+    border-radius: .3rem;
+}
+/*online stranica*/
+
+#online .jumbotron {
+	background-image: url(sadrzaj/img/onlines.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:  200px 50px;
+	color: #030303;
+}
+
+#online .jumbotron i {
+	color: #030303;
+	font-size: 60px;
+}
+
+
+
+#online1 {
+background-color: black;
+	
+	color:#ffd000;
+}
+
+#online1  p{
+
+	background-color:#03030380;
+}
+
+#cenovnik .jumbotron {
+	background-image: url(sadrzaj/img/bg/transform.jpg);
+	background-size: cover;
+	background-position: center;
+	padding:  200px 50px;
+	/*color: #ffd000;*/
+}
+
+/*pricelist*/
+
+section.pricing {
+  background: black;
+ 
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+  
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+   
+
+
+/*video galery*/
+
+
+#vgalery .jumbotron {
+  background-image: url(sadrzaj/img/bg/videogalery.jpg);
+  background-size: cover;
+  background-position: center;
+  padding:  200px 50px;
+  color: #030303;
+}
+
+#vgalery .jumbotron i {
+  color: #030303;
+  font-size: 60px;
+}
+
+
+
+/*vesti*/
+
+.alert-danger {
+    color: #ffd000;
+    background-color: #030303;
+    border-color: #ffd000;
+}

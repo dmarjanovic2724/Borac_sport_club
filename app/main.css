@@ -1,0 +1,55 @@
+
+/*boje
+
+/*boje
+
+crna #030303
+zuta #ffd000
+bela #ffffff
+*/
+
+
+
+
+.bg-dark {
+    background-color: #030303!important;
+}
+
+
+
+
+
+.navbar-light .navbar-brand {
+    color: #ffd000 !important;
+    font-size:44px !important;
+}
+
+.nav-link {
+    color: #ffd000 !important;
+     font-size:24px !important;
+}
+
+body,html{
+
+	background-color: #e9ecef;
+	min-height: 100vh;
+}
+
+
+
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.carousel-indicators li {
+    border: none;
+    background: #ccc;
+}
+
+.carousel-indicators li.active {
+    background: #28a745;
+}
